@@ -6,8 +6,8 @@ public class main {
         ArrayList<Integer> UserInput = new ArrayList<Integer>();
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
+        float a = scanner.nextFloat();
+        float b = scanner.nextFloat();
         System.out.println("You entered: " + a + " and " + b);
         //Scanner operators = new Scanner(System.in);
         String calc = scanner.next();
